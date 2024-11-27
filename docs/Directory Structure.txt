@@ -1,0 +1,16 @@
+splitting_file_tool/
+│
+├── config/                # Configuration directory
+│   └── config.ini        # Configuration file for settings
+│
+├── input_files/           # Place your input files here
+│   ├── sample_data.csv    # Example CSV file
+│   └── sample_data.xlsx   # Example Excel file
+│
+├── output_files/          # The output files will be saved here
+│
+├── logs/                  # Directory for log files
+│   └── YYYY-MM-DD-HH-MM-SS.logs  # Example log file name
+│
+└── src/                   # Source code folder
+    └── splitter_multiple_files.py
